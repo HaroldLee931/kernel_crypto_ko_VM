@@ -1,6 +1,7 @@
 obj-m+=hello.o
+#hello-y:= crypto_entry.o call_drbg.o
 
-KDIR = /home/harold/wsl_kernel/WSL2-Linux-Kernel
+KDIR = /home/harold/linux-5.7
 
 all:
 	make -C $(KDIR) M=$(PWD) modules

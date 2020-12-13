@@ -61,3 +61,13 @@ make KCONFIG_CONFIG=Microsoft/config-wsl -j8
 # recording at 2020/12/11
 As the reason of WSL can not support lsmod etc. I decide to use WSL as compile envoriment.
 and test the out put on ResPi
+
+# recording at 2020/12/13
+After recompiling the WSL2 kernel, insmod is supported
+ref:
+
+    # for recompile wsl
+    https://app.getpocket.com/read/3200196509
+    # porject kernel log to shell
+    https://blog.csdn.net/weixin_44395686/article/details/102551475
+
