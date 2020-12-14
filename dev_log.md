@@ -71,3 +71,32 @@ ref:
     # porject kernel log to shell
     https://blog.csdn.net/weixin_44395686/article/details/102551475
 
+# recording at 2020/12/15
+After modify
+```shell
+Dec 15 00:19:00 DESKTOP-C71FG7L kernel: [ 3260.024618] Harold reach end
+Dec 15 00:24:15 DESKTOP-C71FG7L kernel: [ 3574.831773] short is the life of a kernel module!
+Dec 15 00:24:15 DESKTOP-C71FG7L kernel: [ 3574.831773] short is the life of a kernel module!
+Dec 15 00:24:17 DESKTOP-C71FG7L kernel: [ 3577.408078] hello, world - this is the kernel speaking!
+Dec 15 00:24:17 DESKTOP-C71FG7L kernel: [ 3577.408079] Harold in KERNEL, START DUMP!
+Dec 15 00:24:17 DESKTOP-C71FG7L kernel: [ 3577.408080] 78 00 78 01 78 02 78 03
+Dec 15 00:24:17 DESKTOP-C71FG7L kernel: [ 3577.408080]  
+Dec 15 00:24:17 DESKTOP-C71FG7L kernel: [ 3577.408081] 78 04 78 05 78 06 78 07
+Dec 15 00:24:17 DESKTOP-C71FG7L kernel: [ 3577.408081]  
+Dec 15 00:24:17 DESKTOP-C71FG7L kernel: [ 3577.408078] hello, world - this is the kernel speaking!
+Dec 15 00:24:17 DESKTOP-C71FG7L kernel: [ 3577.408079] Harold in KERNEL, START DUMP!
+Dec 15 00:24:17 DESKTOP-C71FG7L kernel: [ 3577.408080] 78 00 78 01 78 02 78 03
+Dec 15 00:24:17 DESKTOP-C71FG7L kernel: [ 3577.408080]  
+Dec 15 00:24:17 DESKTOP-C71FG7L kernel: [ 3577.408081] 78 04 78 05 78 06 78 07
+Dec 15 00:24:17 DESKTOP-C71FG7L kernel: [ 3577.408081]  
+Dec 15 00:24:17 DESKTOP-C71FG7L kernel: [ 3577.408081] 
+Dec 15 00:24:17 DESKTOP-C71FG7L kernel: [ 3577.408081] Harold reach end
+Dec 15 00:24:17 DESKTOP-C71FG7L kernel: [ 3577.408081] 
+Dec 15 00:24:17 DESKTOP-C71FG7L kernel: [ 3577.408081] Harold reach end
+```
+
+
+TODO:
+
+    - [x]  Why print TWICE!
+  
